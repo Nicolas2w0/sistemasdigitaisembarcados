@@ -14,21 +14,32 @@ void setup() {
 
 void loop() {
   if (Serial.avaible() == 1){
-    char i = Serial.read();
-    serial.println(i);
+    char a = Serial.read();
+    serial.println(a);
   }
  /*
- Serial.println("liga LED");   
+ Serial.println("ligar led");   
+ 
  digitalWrite (pin_led1, HIGH); 
+ 
  digitalWrite (pin_led2, HIGH);  
+ 
  digitalWrite (pin_led3, HIGH); 
+
  digitalWrite (pin_led4, HIGH);  
+ 
  delay (500);                    
- Serial.println("desliga LED");  
+ 
+ Serial.println("desligar led");  
+ 
  digitalWrite (pin_led1, LOW);  
+ 
  digitalWrite (pin_led2, LOW);   
+ 
  digitalWrite (pin_led3, LOW);   
+ 
  digitalWrite (pin_led4, LOW);   
+ 
  delay (500);                    
 */
 }
